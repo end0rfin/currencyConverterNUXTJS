@@ -19,9 +19,16 @@ $ npm start
 $ npm run generate
 ```
 
-Конвертер валют.
-
-Данные подгружаются через API https://free.currencyconverterapi.com
+Конвертер валют на NUXTJS + VUETIFY
 
 
+Форма конвертера вынесена в отдельный компонент.
 
+
+Данные валют подгружаются через API https://free.currencyconverterapi.com
+
+
+
+На подходе версия 2. 
+Планируется:
+- сохранение истории конвертаций через $store (VUEX)
